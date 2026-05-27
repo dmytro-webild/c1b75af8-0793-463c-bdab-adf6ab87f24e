@@ -90,11 +90,11 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=1",
           imageAlt: "AI interface displaying real estate data",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg?_wi=1",
           imageAlt: "Hands interacting with holographic CRM",
         },
         {
@@ -169,14 +169,14 @@ export default function LandingPage() {
             },
           ],
           placeholder: "Enter your question...",
-          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=2",
           imageAlt: "sales funnel leak graphic",
         },
         {
           title: "Automated 14-Day Follow-Up",
           description: "Most teams give up after 3 attempts. We implement a persistent 14-day multi-channel follow-up sequence, ensuring maximum lead engagement.",
           bentoComponent: "animated-bar-chart",
-          imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg?_wi=2",
           imageAlt: "sales funnel leak graphic",
         },
       ]}
