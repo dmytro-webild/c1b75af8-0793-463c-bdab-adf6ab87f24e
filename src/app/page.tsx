@@ -219,7 +219,7 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient"}}
+        variant: "radial-gradient"}}
       tag="Ready to Grow?"
       tagIcon={Rocket}
       title="Stop Losing Deals. Start Booking Appointments."
