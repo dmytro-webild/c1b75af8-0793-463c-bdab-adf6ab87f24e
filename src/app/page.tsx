@@ -100,6 +100,7 @@ export default function LandingPage() {
 
   <div id="features" data-section="features">
       <FeatureBento
+      animationType="blur-reveal"
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
