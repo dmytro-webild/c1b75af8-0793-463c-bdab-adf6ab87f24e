@@ -2,8 +2,8 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
+import ContactText from '@/components/sections/contact/ContactText';
+import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBento from '@/components/sections/feature/FeatureBento';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
@@ -158,19 +158,19 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "Alex R.",          date: "2023-11-01",          title: "Game Changer for Our Dealflow!",          quote: "DealflowAi completely transformed how we handle seller leads. The speed-to-lead and automated follow-up brought us deals we would have otherwise missed. Highly recommend!",          tag: "Wholesaler",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",          avatarAlt: "Alex R. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-real-estate-agent-showing-house_23-2150225262.jpg",          imageAlt: "Real estate deal closing"},
+          id: "1",          name: "Alex R.",          date: "2023-11-01",          title: "Doubled Our Booked Calls & Accelerated Deals!",          quote: "DealflowAi completely transformed how we handle seller leads. Their speed-to-lead and automated follow-up brought us deals we would have otherwise missed. Our booked calls doubled within weeks!",          tag: "Wholesaler Agency",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",          avatarAlt: "Alex R. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-real-estate-agent-showing-house_23-2150225262.jpg",          imageAlt: "Successful real estate agent closing a deal"},
         {
-          id: "2",          name: "Sarah K.",          date: "2023-10-15",          title: "Increased Our Conversion Rates Significantly",          quote: "Before DealflowAi, we were struggling with lead response times. Now, our conversion rates have soared, and our team can focus on closing, not chasing. Fantastic service!",          tag: "Investor",          avatarSrc: "http://img.b2bpic.net/free-photo/young-gorgeous-stylish-businesswoman-with-cellphone-intently-looking-away-coffee-break-cafe-street_574295-4058.jpg",          avatarAlt: "Sarah K. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/flat-statistics-presentation-with-arrows_23-2149023772.jpg",          imageAlt: "Lead conversion graph"},
+          id: "2",          name: "Sarah K.",          date: "2023-10-15",          title: "Consistent Deal Flow, Zero Missed Opportunities",          quote: "Before DealflowAi, inconsistent follow-up was costing us. Now, our conversion rates have soared, and our team can focus purely on closing, not chasing. Fantastic service that delivers consistent deal flow!",          tag: "Investment Firm",          avatarSrc: "http://img.b2bpic.net/free-photo/young-gorgeous-stylish-businesswoman-with-cellphone-intently-looking-away-coffee-break-cafe-street_574295-4058.jpg",          avatarAlt: "Sarah K. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/colleagues-discussing-charts-business-meeting_1098-4841.jpg",          imageAlt: "Business professionals reviewing growth charts"},
         {
-          id: "3",          name: "Michael L.",          date: "2023-09-28",          title: "Missed Calls are a Thing of the Past",          quote: "The missed call recovery system is genius. We were losing so many potential deals, and now every call is a new opportunity. It's truly a seamless process.",          tag: "Developer",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-smiling_23-2148729669.jpg",          avatarAlt: "Michael L. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/happy-young-asian-man-standing-indoors_171337-10599.jpg",          imageAlt: "Phone with missed call recovery UI"},
+          id: "3",          name: "Michael L.",          date: "2023-09-28",          title: "Turning Cold Leads into Warm, Booked Appointments",          quote: "The missed call recovery and 14-day follow-up are genius. We were losing so many potential deals, and now every cold lead is systematically warmed up and turned into a new, qualified opportunity. Truly efficient!",          tag: "Real Estate Developer",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-smiling_23-2148729669.jpg",          avatarAlt: "Michael L. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/working-business-technology-computer-internet-male_1163-5494.jpg",          imageAlt: "Professional working on a modern CRM system"},
         {
-          id: "4",          name: "Jessica T.",          date: "2023-09-10",          title: "Finally, Qualified Appointments!",          quote: "The best part is the quality of the appointments we receive. Leads are thoroughly vetted, so our time is spent on highly motivated sellers. This agency understands real estate.",          tag: "Entrepreneur",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-happy-successful-businessman-standing-restaurant-with-crossed-arm_23-2147955259.jpg",          avatarAlt: "Jessica T. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/calendar-planner-agenda-schedule-concept_53876-132201.jpg",          imageAlt: "Calendar with booked appointments"},
+          id: "4",          name: "Jessica T.",          date: "2023-09-10",          title: "Streamlined Process & Highly Qualified Sellers",          quote: "The best part is the quality of the appointments we receive. Leads are thoroughly vetted, so our time is spent only on highly motivated sellers. This agency truly understands real estate acquisition!",          tag: "Acquisition Specialist",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-happy-successful-businessman-standing-restaurant-with-crossed-arm_23-2147955259.jpg",          avatarAlt: "Jessica T. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-with-documents-laptop_1098-2023.jpg",          imageAlt: "Businesswoman analyzing documents and laptop"},
         {
-          id: "5",          name: "David M.",          date: "2023-08-22",          title: "Keeping 100% of Our Deals is Huge",          quote: "The model where we keep all of our equity is unbeatable. Coupled with their efficient lead conversion, DealflowAi has become an indispensable partner for our business.",          tag: "Real Estate Investor",          avatarSrc: "http://img.b2bpic.net/free-photo/businessman-wearing-coat_1098-3778.jpg",          avatarAlt: "David M. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/business-man-show-money-bank-note-make-financial-plan-invite-people-sell-buy-house-car-monetary-properties-loan-credit-insurance-concept_1150-13576.jpg",          imageAlt: "Stack of cash and sold sign"},
+          id: "5",          name: "David M.",          date: "2023-08-22",          title: "100% Equity Retention: A Game-Changing Model!",          quote: "The model where we keep all of our equity is unbeatable. Coupled with their efficient lead conversion, DealflowAi has become an indispensable partner for our business's growth and profitability.",          tag: "Private Investor",          avatarSrc: "http://img.b2bpic.net/free-photo/businessman-wearing-coat_1098-3778.jpg",          avatarAlt: "David M. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-looking-pie-charts-analyzing-data_1098-19793.jpg",          imageAlt: "Businesswoman reviewing financial charts for growth"}
       ]}
-      title="Hear From Our Happy Clients"
-      description="Our clients consistently see significant improvements in their deal flow and conversion rates. Their success is our success."
-      tag="Success Stories"
+      title="Real-World Success Stories: Our Clients Achieve More"
+      description="Discover how real estate agencies and investors are dramatically increasing their booked appointments and closing more deals with DealflowAi."
+      tag="Success Amplified"
       tagIcon={MessageSquare}
     />
   </div>
@@ -180,10 +180,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Real Estate Pros Inc.",        "Property Invest Co.",        "Wholesale Empire Group",        "Acquisition Masters LLC",        "Deal Maker Capital",        "Elite Investor Network",        "Home Buyer Solutions",        "Growth Property Ventures"]}
-      title="Trusted by Leading Real Estate Professionals"
-      description="Join the ranks of successful investors and wholesalers who rely on DealflowAi to optimize their lead conversion."
-      tag="Our Partners"
+        "Growth Partners LLC",        "Elite Acquisitions Co.",        "Synergy Capital Group",        "Apex Real Estate Ventures",        "Precision Property Solutions",        "Catalyst Investments",        "Future Flow Realty",        "NextGen Deal Makers"]}
+      title="Trusted by Leading Real Estate Agencies & Investors"
+      description="Join the ranks of high-performing real estate professionals who rely on DealflowAi to optimize their lead conversion and scale their operations."
+      tag="Our Valued Partners"
       tagIcon={DollarSign}
       speed={40}
       showCard={true}
@@ -191,43 +191,48 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqSplitMedia
-      textboxLayout="default"
+      <FaqSplitText
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq1",          title: "What kind of leads do you work with?",          content: "We work with various types of seller leads, including cold leads, missed calls, and no-response leads. Our systems are designed to engage and qualify them for you."},
+          id: "faq1",          title: "What types of seller leads do you specialize in converting?",          content: "We expertly convert a wide range of seller leads, including cold leads, missed calls, and no-response leads. Our systems are designed to engage, qualify, and convert them into booked appointments for your agency."
+        },
         {
-          id: "faq2",          title: "How quickly do you follow up with leads?",          content: "Our speed-to-lead system ensures immediate follow-up, typically within the first 5 minutes, significantly increasing the chances of engagement."},
+          id: "faq2",          title: "How quickly can I expect leads to be followed up with?",          content: "Our advanced speed-to-lead system ensures immediate engagement. Leads are typically followed up with within the first 5 minutes of receipt, dramatically increasing your chances of securing a conversation."
+        },
         {
-          id: "faq3",          title: "What does '100% of every deal' mean?",          content: "Unlike traditional lead services that take a cut, our model ensures you retain 100% of the equity and profit from every deal closed through our systems."},
+          id: "faq3",          title: "What does your '100% of every deal' model mean for my profitability?",          content: "Unlike traditional lead generation services that take a percentage, our unique model ensures you retain 100% of the equity and profit from every deal successfully closed through our optimized systems. Your success is entirely yours."
+        },
+        {
+          id: "faq4",          title: "How does DealflowAi ensure leads are qualified before they reach my calendar?",          content: "Our multi-stage qualification process uses AI-driven interactions and strategic follow-up to pre-vet leads, ensuring that only genuinely motivated and relevant sellers are scheduled for appointments on your calendar, saving you valuable time."
+        }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/copy-space-light-bulb_23-2148519441.jpg"
-      imageAlt="Question mark turning into a lightbulb"
-      mediaAnimation="slide-up"
-      mediaPosition="left"
-      title="Frequently Asked Questions"
-      description="Have more questions? We're here to provide clear answers about our process and how we can help your agency."
-      tag="Get Answers"
-      tagIcon={HelpCircle}
+      sideTitle="Your Questions, Answered: Ready to Elevate Your Deal Flow?"
+      sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business."
+      buttons={[
+        {
+          text: "Book a Free Consultation",          href: "https://dealflowai.agency/book"
+        }
+      ]}
       faqsAnimation="blur-reveal"
       showCard={true}
+      textPosition="left"
     />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactText
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      tag="Ready to Grow?"
+      tag="Unlock Your Agency's Potential"
       tagIcon={Rocket}
-      title="Stop Losing Deals. Start Booking Appointments."
-      description="It's time to supercharge your lead conversion. Book a quick 10-minute fit check with us to see how DealflowAi can transform your business."
+      text="Stop leaving money on the table. Schedule your complimentary 10-minute DealflowAi Fit Check today and discover a tailored strategy to convert your seller leads into profitable opportunities. No obligations, just results."
       buttons={[
         {
-          text: "Book My Fit Check Now",          href: "https://dealflowai.agency/book"},
+          text: "Schedule Your Free Fit Check",          href: "https://dealflowai.agency/book"}
       ]}
+      title="Ready for More Booked Appointments and Closed Deals?"
     />
   </div>
 
