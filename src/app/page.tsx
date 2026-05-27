@@ -225,14 +225,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      tag="Unlock Your Agency's Potential"
-      tagIcon={Rocket}
       text="Stop leaving money on the table. Schedule your complimentary 10-minute DealflowAi Fit Check today and discover a tailored strategy to convert your seller leads into profitable opportunities. No obligations, just results."
       buttons={[
         {
           text: "Schedule Your Free Fit Check",          href: "https://dealflowai.agency/book"}
       ]}
-      title="Ready for More Booked Appointments and Closed Deals?"
     />
   </div>
 
