@@ -47,12 +47,12 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "/#contact"},
         {
-          name: "Privacy Policy",          id: "/privacy-policy"},
+          name: "Privacy Policy",          id: "https://dealflow-privacy.carrd.co"},
         {
-          name: "Terms of Service",          id: "/terms-of-service"}
+          name: "Terms of Service",          id: "https://dealflow-terms.carrd.co"}
       ]}
       button={{
-        text: "Book Fit Check",        href: "/#contact"}}
+        text: "Book Fit Check",        href: "https://calendly.com/abdul-dealflowai"}}
       brandName="DealflowAi"
     />
   </div>
@@ -199,6 +199,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
+          id: "founding-client-phase",          title: "What is the 'founding-client phase' and how does it benefit my agency?",          content: "As we roll out DealflowAi, we're inviting a select group of founding clients to partner with us. During this phase, you'll receive enhanced support, direct input into feature development, and exclusive pricing, all while securing your competitive advantage in lead conversion."
+        },
+        {
           id: "faq0",          title: "Do you have case studies or testimonials demonstrating your results?",          content: "Yes, we have a strong track record of success. Please refer to our Testimonials section to see how real estate agencies and investors have significantly increased their booked appointments and closed more deals with DealflowAi."
         },
         {
@@ -215,7 +218,7 @@ export default function LandingPage() {
         }
       ]}
       sideTitle="Your Questions, Answered: Ready to Elevate Your Deal Flow?"
-      sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Receive a personalized strategy for optimizing your deal flow. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business."
+      sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Receive a personalized strategy for optimizing your deal flow. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business. You can reach Abdul Soloku at 347-652-5313 or abdul.dealflowai@gmail.com."
       buttons={[
         {
           text: "Book a Free Consultation",          href: "https://calendly.com/abdul-dealflowai"
@@ -231,7 +234,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={false}
       title="Ready to Transform Your Dealflow?"
-      description="Schedule your complimentary 10-minute Fit Check. Discover how DealflowAi can convert your seller leads into high-quality, booked appointments. No obligations, just results."
+      description="Schedule your complimentary 10-minute Fit Check with Abdul Soloku on Calendly: calendly.com/abdul-dealflowai. Discover how DealflowAi can convert your seller leads into high-quality, booked appointments. No obligations, just results. You can also reach us at 347-652-5313 or abdul.dealflowai@gmail.com."
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true
@@ -248,7 +251,21 @@ export default function LandingPage() {
       }}
       buttonText="Schedule My Fit Check"
       mediaPosition="right"
-      onSubmit={(data) => console.log('Contact form submitted:', data)}
+      onSubmit={(data) => {
+        console.log('Contact form submitted:', data);
+        // In a real application, you would send this data to a backend endpoint.
+        // For example, using fetch or axios:
+        // fetch('/api/contact', {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        //   body: JSON.stringify(data),
+        // }).then(response => response.json())
+        //   .then(result => console.log('Success:', result))
+        //   .catch(error => console.error('Error:', error));
+        alert(`Thanks for reaching out, ${data.name}! We'll be in touch at ${data.email} or ${data.phone}.`);
+      }}
     />
   </div>
 
