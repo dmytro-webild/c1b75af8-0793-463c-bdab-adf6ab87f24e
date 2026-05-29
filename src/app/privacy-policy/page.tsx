@@ -121,7 +121,8 @@ export default function PrivacyPolicyPage() {
               { name: "Testimonials", id: "/#testimonials" },
               { name: "FAQ", id: "/#faq" },
               { name: "Contact", id: "/#contact" },
-              { name: "Privacy Policy", id: "/privacy-policy" }
+              { name: "Privacy Policy", id: "/privacy-policy" },
+              { name: "Terms of Service", id: "/terms-of-service" }
             ]}
             button={{
               text: "Book Fit Check",              href: "/#contact"
