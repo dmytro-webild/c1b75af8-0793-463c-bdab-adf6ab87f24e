@@ -2,16 +2,16 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FeatureBento from '@/components/sections/feature/FeatureBento';
-import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
-import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
-import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
+import FaqSplitText from "@/components/sections/faq/FaqSplitText";
+import FeatureBento from "@/components/sections/feature/FeatureBento";
+import FooterCard from "@/components/sections/footer/FooterCard";
+import HeroBillboardCarousel from "@/components/sections/hero/HeroBillboardCarousel";
+import InlineImageSplitTextAbout from "@/components/sections/about/InlineImageSplitTextAbout";
+import MetricCardTwo from "@/components/sections/metrics/MetricCardTwo";
+import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
+import TestimonialCardFive from "@/components/sections/testimonial/TestimonialCardFive";
 import { Award, Cog, DollarSign, Facebook, Linkedin, MessageSquare, Sparkles, Star, Twitter, User, Zap } from "lucide-react";
 
 export default function LandingPage() {
@@ -46,6 +46,8 @@ export default function LandingPage() {
           name: "FAQ",          id: "#faq"},
         {
           name: "Contact",          id: "#contact"},
+        {
+          name: "Privacy Policy",          id: "/privacy-policy"}
       ]}
       button={{
         text: "Book Fit Check",        href: "#contact"}}
