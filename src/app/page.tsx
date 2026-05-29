@@ -208,7 +208,7 @@ export default function LandingPage() {
         }
       ]}
       sideTitle="Your Questions, Answered: Ready to Elevate Your Deal Flow?"
-      sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business."
+      sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Receive a personalized strategy for optimizing your deal flow. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business."
       buttons={[
         {
           text: "Book a Free Consultation",          href: "https://dealflowai.agency/book"
@@ -240,7 +240,7 @@ export default function LandingPage() {
         name: "message",        placeholder: "Tell us about your agency's needs...",        rows: 4
       }}
       buttonText="Schedule My Fit Check"
-      imageSrc="http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EJv1JFqZ3mE4GRyn2yVveVvDnE/uploaded-1780067280913-z1tbrpp3.png"
       mediaPosition="right"
       onSubmit={(data) => console.log('Contact form submitted:', data)}
     />
