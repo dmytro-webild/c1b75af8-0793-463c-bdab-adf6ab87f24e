@@ -67,7 +67,7 @@ export default function LandingPage() {
       tagIcon={Sparkles}
       buttons={[
         {
-          text: "Book Fit Check (10 min)",          href: "/#contact"},
+          text: "Book Fit Check (10 min)",          href: "https://calendly.com/abdul-dealflowai"},
         {
           text: "Text “PILOT”",          href: "/#contact"},
       ]}
@@ -184,9 +184,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Growth Partners LLC",        "Elite Acquisitions Co.",        "Synergy Capital Group",        "Apex Real Estate Ventures",        "Precision Property Solutions",        "Catalyst Investments",        "Future Flow Realty",        "NextGen Deal Makers"]}
-      title="Trusted by Leading Real Estate Agencies & Investors"
-      description="Join the ranks of high-performing real estate professionals who rely on DealflowAi to optimize their lead conversion and scale their operations."
+        "NY Wholesalers",        "NJ Investors",        ""Local Property Buyers"",        "Real Estate Acquisition Firms"]}
+      title="Built for NY/NJ Wholesalers and Investors"
+      description="We specialize in empowering real estate wholesalers and investors in New York and New Jersey to maximize their deal flow and acquire more properties, faster."
       tag="Our Valued Partners"
       tagIcon={DollarSign}
       speed={40}
@@ -198,6 +198,9 @@ export default function LandingPage() {
       <FaqSplitText
       useInvertedBackground={false}
       faqs={[
+        {
+          id: "faq0",          title: "Do you have case studies or testimonials demonstrating your results?",          content: "Yes, we have a strong track record of success. Please refer to our Testimonials section to see how real estate agencies and investors have significantly increased their booked appointments and closed more deals with DealflowAi."
+        },
         {
           id: "faq1",          title: "What types of seller leads do you specialize in converting?",          content: "We expertly convert a wide range of seller leads, including cold leads, missed calls, and no-response leads. Our systems are designed to engage, qualify, and convert them into booked appointments for your agency."
         },
@@ -215,7 +218,7 @@ export default function LandingPage() {
       sideDescription="We understand you might have questions about optimizing your real estate lead conversion and growing your agency. Receive a personalized strategy for optimizing your deal flow. Find clear, concise answers below, or connect with our team for a personalized discussion on how we can transform your business."
       buttons={[
         {
-          text: "Book a Free Consultation",          href: "https://dealflowai.agency/book"
+          text: "Book a Free Consultation",          href: "https://calendly.com/abdul-dealflowai"
         }
       ]}
       faqsAnimation="blur-reveal"
@@ -252,21 +255,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterCard
       logoText="DealflowAi"
-      copyrightText="© 2024 DealflowAi. All rights reserved."
-      socialLinks={[
-        {
-          icon: Twitter,
-          href: "https://twitter.com/dealflowai",          ariaLabel: "Twitter"
-        },
-        {
-          icon: Linkedin,
-          href: "https://linkedin.com/company/dealflowai",          ariaLabel: "LinkedIn"
-        },
-        {
-          icon: Facebook,
-          href: "https://facebook.com/dealflowai",          ariaLabel: "Facebook"
-        }
-      ]}
+      copyrightText="© 2026 DealflowAi. All rights reserved."
+      socialLinks={[]}
     />
   </div>
       </ReactLenis>
