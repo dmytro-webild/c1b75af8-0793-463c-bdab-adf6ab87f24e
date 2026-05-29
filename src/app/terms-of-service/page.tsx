@@ -61,7 +61,8 @@ export default function TermsOfServicePage() {
             type: "paragraph",            text: "All content, features, and functionality on the Service, including but not limited to text, graphics, logos, software, and the underlying AI algorithms, are the exclusive property of DealflowAi Agency and its licensors. You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Service, except as generally permitted for personal, non-commercial use, or as explicitly authorized by DealflowAi Agency."
           }
         ]
-      },\n      {
+      },
+      {
         heading: "7. Disclaimers",        content: [
           {
             type: "paragraph",            text: "The Service is provided on an 'AS IS' and 'AS AVAILABLE' basis, without any warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance. DealflowAi Agency does not warrant that the Service will be uninterrupted, secure, or error-free."
