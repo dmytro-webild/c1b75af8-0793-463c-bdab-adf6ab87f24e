@@ -2,17 +2,17 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBento from '@/components/sections/feature/FeatureBento';
-import FooterBase from '@/components/sections/footer/FooterBase';
+import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import { Award, Cog, DollarSign, HelpCircle, MessageSquare, Rocket, Sparkles, Star, User, Zap } from "lucide-react";
+import { Award, Cog, DollarSign, Facebook, Linkedin, MessageSquare, Sparkles, Star, Twitter, User, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -221,50 +221,49 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactText
+      <ContactSplitForm
       useInvertedBackground={false}
-      background={{
-        variant: "radial-gradient"}}
-      text="Stop leaving money on the table. Schedule your complimentary 10-minute DealflowAi Fit Check today and discover a tailored strategy to convert your seller leads into profitable opportunities. No obligations, just results."
-      buttons={[
+      title="Ready to Transform Your Dealflow?"
+      description="Schedule your complimentary 10-minute Fit Check. Discover how DealflowAi can convert your seller leads into high-quality, booked appointments. No obligations, just results."
+      inputs={[
         {
-          text: "Schedule Your Free Fit Check",          href: "https://dealflowai.agency/book"}
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true
+        },
+        {
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true
+        },
+        {
+          name: "phone",          type: "tel",          placeholder: "Your Phone Number (Optional)",          required: false
+        }
       ]}
+      textarea={{
+        name: "message",        placeholder: "Tell us about your agency's needs...",        rows: 4
+      }}
+      buttonText="Schedule My Fit Check"
+      imageSrc="http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg"
+      mediaPosition="right"
+      onSubmit={(data) => console.log('Contact form submitted:', data)}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBase
-      columns={[
-        {
-          title: "Company",          items: [
-            {
-              label: "Home",              href: "#home"},
-            {
-              label: "About Us",              href: "#about"},
-            {
-              label: "Services",              href: "#features"},
-          ],
-        },
-        {
-          title: "Support",          items: [
-            {
-              label: "FAQ",              href: "#faq"},
-            {
-              label: "Contact Us",              href: "#contact"},
-          ],
-        },
-        {
-          title: "Legal",          items: [
-            {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms of Service",              href: "#"},
-          ],
-        },
-      ]}
+      <FooterCard
       logoText="DealflowAi"
       copyrightText="© 2024 DealflowAi. All rights reserved."
+      socialLinks={[
+        {
+          icon: Twitter,
+          href: "https://twitter.com/dealflowai",          ariaLabel: "Twitter"
+        },
+        {
+          icon: Linkedin,
+          href: "https://linkedin.com/company/dealflowai",          ariaLabel: "LinkedIn"
+        },
+        {
+          icon: Facebook,
+          href: "https://facebook.com/dealflowai",          ariaLabel: "Facebook"
+        }
+      ]}
     />
   </div>
       </ReactLenis>
