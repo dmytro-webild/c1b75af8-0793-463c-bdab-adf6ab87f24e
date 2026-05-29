@@ -13,25 +13,25 @@ export default function TermsOfServicePage() {
       {
         heading: "1. Introduction",        content: [
           {
-            type: "paragraph",            text: "Welcome to DealflowAi Agency! These Terms of Service ('Terms') govern your use of our website, platform, and services (collectively, the 'Service'). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Service."
+            type: "paragraph",            text: "These Terms of Service ('Terms') constitute a legally binding agreement between DealflowAi Agency ('Agency', 'we', 'us', or 'our') and you ('Client' or 'User') concerning your access to and use of the DealflowAi platform and related services (collectively, the 'Service'). By accessing, browsing, or utilizing any aspect of our Service, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree with these Terms, you are expressly prohibited from using the Service and must discontinue use immediately."
           }
         ]
       },
       {
         heading: "2. Acceptance of Terms",        content: [
           {
-            type: "paragraph",            text: "By creating an account or using our Service, you confirm that you are at least 18 years of age and capable of forming a binding contract. You also agree to comply with all applicable laws and regulations regarding your use of the Service."
+            type: "paragraph",            text: "Your engagement with our Service, including but not limited to account creation, signifies your affirmation that you are at least 18 years of age, possess the legal capacity to enter into this agreement, and commit to adhering to all pertinent local, national, and international laws and regulations governing your use of the Service."
           }
         ]
       },
       {
         heading: "3. Services Provided",        content: [
           {
-            type: "paragraph",            text: "DealflowAi Agency provides AI-driven solutions for real estate investors and wholesalers, focusing on lead conversion, speed-to-lead, missed call recovery, and automated follow-up sequences to secure booked seller appointments. Our services are designed to enhance your deal flow efficiency and profitability."
+            type: "paragraph",            text: "DealflowAi Agency delivers sophisticated, AI-driven solutions specifically tailored for real estate investors and wholesalers. Our core objective is to optimize your lead conversion funnel, from initial contact to secured seller appointments, thereby significantly enhancing your operational efficiency and profitability. Our Service offerings include:"
           },
           {
             type: "list",            items: [
-              "**Lead Qualification:** Automated systems to qualify seller leads.",              "**Speed-to-Lead:** Rapid response to new leads to maximize engagement.",              "**Missed Call Recovery:** Strategies and tools to re-engage missed seller calls.",              "**Automated Follow-Up:** Multi-channel, persistent follow-up campaigns over 14+ days.",              "**Appointment Booking:** Facilitation of booked appointments with qualified sellers."
+              "**Proactive Lead Engagement:** Implementing rapid response protocols to ensure immediate contact with new seller leads, maximizing engagement potential.",              "**Comprehensive Missed Call Recovery:** Deploying advanced strategies and tools to systematically re-engage and qualify leads from missed inbound calls.",              "**Automated Multi-Channel Nurturing:** Executing persistent, multi-channel follow-up campaigns over an extended period (14+ days) to nurture and convert cold or unresponsive leads.",              "**Qualified Appointment Generation:** Facilitating the scheduling of high-quality, pre-vetted appointments with motivated sellers, enabling your team to focus on deal closure."
             ]
           }
         ]
@@ -39,11 +39,11 @@ export default function TermsOfServicePage() {
       {
         heading: "4. User Responsibilities",        content: [
           {
-            type: "paragraph",            text: "As a user of DealflowAi Agency's Service, you agree to:"
+            type: "paragraph",            text: "Clients engaging with DealflowAi Agency’s Service are expected to uphold the following responsibilities:"
           },
           {
             type: "list",            items: [
-              "Provide accurate and complete information during registration and use of the Service.",              "Maintain the confidentiality of your account login information.",              "Comply with all applicable local, state, national, and international laws and regulations.",              "Only provide lead data that you have the legal right to use for the purposes of our Service and that complies with all privacy and data protection laws.",              "Not use the Service for any illegal, unauthorized, or unethical purposes."
+              "Furnish accurate, current, and complete information during the registration process and throughout the duration of Service utilization.",              "Maintain the strict confidentiality of all account credentials and assume full responsibility for all activities occurring under your account.",              "Ensure full compliance with all applicable federal, state, and local laws, rules, and regulations in connection with your use of the Service.",              "Warrant that all lead data provided to the Agency for processing is legally acquired, consent-based (where required), and compliant with all relevant privacy and data protection statutes.",              "Refrain from employing the Service for any illicit, unauthorized, fraudulent, or unethical activities, or in any manner that infringes upon the rights of others."
             ]
           }
         ]
@@ -51,63 +51,63 @@ export default function TermsOfServicePage() {
       {
         heading: "5. Payment and Fees",        content: [
           {
-            type: "paragraph",            text: "Access to certain features of the Service may require payment of fees. You agree to pay all applicable fees as described on our website or in your service agreement. All fees are non-refundable unless otherwise stated. We reserve the right to change our prices at any time, with notice to you as required by law."
+            type: "paragraph",            text: "Certain advanced features and service tiers within the DealflowAi platform necessitate the remittance of specified fees. By subscribing to these features, you commit to settling all applicable charges as delineated in your bespoke service agreement or on our official pricing page. All payments rendered are strictly non-refundable, except where explicitly mandated by law or stipulated otherwise in a separate written agreement. The Agency reserves the unilateral right to adjust its pricing structure; any such modifications will be communicated to you in advance, consistent with legal requirements."
           }
         ]
       },
       {
         heading: "6. Intellectual Property",        content: [
           {
-            type: "paragraph",            text: "All content, features, and functionality on the Service, including but not limited to text, graphics, logos, software, and the underlying AI algorithms, are the exclusive property of DealflowAi Agency and its licensors. You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Service, except as generally permitted for personal, non-commercial use, or as explicitly authorized by DealflowAi Agency."
+            type: "paragraph",            text: "All proprietary content, features, and functionalities comprising the Service, encompassing, but not limited to, textual content, graphic elements, logos, software code, and the proprietary AI algorithms, are and shall remain the exclusive intellectual property of DealflowAi Agency and its respective licensors. Unauthorized reproduction, distribution, modification, creation of derivative works, public display, public performance, republication, downloading, storage, or transmission of any material from our Service is strictly prohibited, save for customary personal, non-commercial use or explicit written authorization from DealflowAi Agency."
           }
         ]
       },
       {
         heading: "7. Disclaimers",        content: [
           {
-            type: "paragraph",            text: "The Service is provided on an 'AS IS' and 'AS AVAILABLE' basis, without any warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance. DealflowAi Agency does not warrant that the Service will be uninterrupted, secure, or error-free."
+            type: "paragraph",            text: "The Service is provided on an 'AS IS' and 'AS AVAILABLE' basis, without warranties of any kind, whether express or implied. DealflowAi Agency disclaims all warranties, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance. The Agency does not warrant that the Service will operate without interruption, be entirely secure, or be free from errors or malicious code."
           }
         ]
       },
       {
         heading: "8. Limitation of Liability",        content: [
           {
-            type: "paragraph",            text: "In no event shall DealflowAi Agency, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose."
+            type: "paragraph",            text: "To the fullest extent permitted by applicable law, in no event shall DealflowAi Agency, its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including, without limitation, loss of profits, data, use, goodwill, or other intangible losses, arising from (i) your access to or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; or (iv) unauthorized access, use, or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence), or any other legal theory, even if we have been advised of the possibility of such damages and even if a remedy set forth herein is found to have failed its essential purpose."
           }
         ]
       },
       {
         heading: "9. Indemnification",        content: [
           {
-            type: "paragraph",            text: "You agree to defend, indemnify, and hold harmless DealflowAi Agency and its licensee and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of a) your use and access of the Service, by you or any person using your account and password; b) a breach of these Terms; or c) content posted on the Service."
+            type: "paragraph",            text: "You agree to indemnify, defend, and hold harmless DealflowAi Agency, its affiliates, licensors, and their respective directors, officers, employees, and agents from and against any and all claims, liabilities, damages, losses, and expenses, including reasonable attorney’s fees and costs, arising out of or in any way connected with (a) your access to or use of the Service; (b) your violation of these Terms; or (c) your infringement of any third-party rights, including intellectual property rights or privacy rights."
           }
         ]
       },
       {
         heading: "10. Termination",        content: [
           {
-            type: "paragraph",            text: "We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms. If you wish to terminate your account, you may simply discontinue using the Service."
+            type: "paragraph",            text: "We reserve the right to terminate or suspend your account and prohibit access to the Service immediately, without prior notice or liability, at our sole discretion, for any reason whatsoever, including without limitation, your breach of these Terms. Should you wish to terminate your account, you may do so by ceasing all use of the Service."
           }
         ]
       },
       {
         heading: "11. Governing Law",        content: [
           {
-            type: "paragraph",            text: "These Terms shall be governed and construed in accordance with the laws of [Your State/Country], without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights."
+            type: "paragraph",            text: "These Terms shall be governed by and construed in accordance with the laws of [Your State/Country], without giving effect to any principles of conflicts of law. You irrevocably agree that the courts of [Your State/Country] shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these Terms."
           }
         ]
       },
       {
         heading: "12. Changes to Terms",        content: [
           {
-            type: "paragraph",            text: "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our Service after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Service."
+            type: "paragraph",            text: "DealflowAi Agency reserves the right, at its sole discretion, to modify or replace these Terms at any time. For any material revisions, we will endeavor to provide at least thirty (30) days' prior notice before the updated terms become effective. The determination of what constitutes a 'material change' remains at our exclusive discretion. Your continued access or use of the Service subsequent to the effective date of any revised Terms constitutes your full acceptance of and agreement to be bound by the updated Terms. If you do not agree to the new Terms, you must cease using the Service."
           }
         ]
       },
       {
         heading: "13. Contact Us",        content: [
           {
-            type: "paragraph",            text: "If you have any questions about these Terms, please contact us:"
+            type: "paragraph",            text: "For any inquiries or concerns regarding these Terms of Service, please reach out to us via:"
           },
           {
             type: "list",            items: [
@@ -158,12 +158,12 @@ export default function TermsOfServicePage() {
             layout="page"
             title={termsOfServiceContent.title}
             sections={termsOfServiceContent.sections}
-            className="py-16 md:py-24 lg:py-32 bg-background text-foreground"
-            titleClassName="text-center text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-foreground"
-            sectionClassName="mb-12 border-b border-foreground/10 pb-10 last:border-b-0 last:pb-0"
-            headingClassName="text-3xl md:text-4xl font-semibold mb-6 text-primary-cta"
-            contentClassName="text-lg leading-relaxed text-foreground/80 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
-            listClassName="list-disc list-inside space-y-2 text-lg text-foreground/80 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
+            className="py-12 md:py-16 lg:py-20 bg-background text-foreground"
+            titleClassName="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-8"
+            sectionClassName="mb-10 border-b border-foreground/5 pb-8 last:border-b-0 last:pb-0"
+            headingClassName="text-2xl md:text-3xl font-semibold mb-4 text-primary-cta"
+            contentClassName="text-base md:text-lg leading-relaxed text-foreground/80 max-w-3xl xl:max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
+            listClassName="list-disc list-inside space-y-1 md:space-y-2 text-base md:text-lg text-foreground/80 max-w-3xl xl:max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
           />
         </div>
 
