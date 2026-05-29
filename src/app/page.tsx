@@ -33,24 +33,26 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",          id: "#home"},
+          name: "Home",          id: "/#home"},
         {
-          name: "About",          id: "#about"},
+          name: "About",          id: "/#about"},
         {
-          name: "Features",          id: "#features"},
+          name: "Features",          id: "/#features"},
         {
-          name: "Metrics",          id: "#metrics"},
+          name: "Metrics",          id: "/#metrics"},
         {
-          name: "Testimonials",          id: "#testimonials"},
+          name: "Testimonials",          id: "/#testimonials"},
         {
-          name: "FAQ",          id: "#faq"},
+          name: "FAQ",          id: "/#faq"},
         {
-          name: "Contact",          id: "#contact"},
+          name: "Contact",          id: "/#contact"},
         {
-          name: "Privacy Policy",          id: "/privacy-policy"}
+          name: "Privacy Policy",          id: "/privacy-policy"},
+        {
+          name: "Terms of Service",          id: "/terms-of-service"}
       ]}
       button={{
-        text: "Book Fit Check",        href: "#contact"}}
+        text: "Book Fit Check",        href: "/#contact"}}
       brandName="DealflowAi"
     />
   </div>
@@ -65,9 +67,9 @@ export default function LandingPage() {
       tagIcon={Sparkles}
       buttons={[
         {
-          text: "Book Fit Check (10 min)",          href: "#contact"},
+          text: "Book Fit Check (10 min)",          href: "/#contact"},
         {
-          text: "Text “PILOT”",          href: "#contact"},
+          text: "Text “PILOT”",          href: "/#contact"},
       ]}
       mediaItems={[
         {
@@ -95,7 +97,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Understand the Problem",          href: "#features"},
+          text: "Understand the Problem",          href: "/#features"},
       ]}
     />
   </div>
