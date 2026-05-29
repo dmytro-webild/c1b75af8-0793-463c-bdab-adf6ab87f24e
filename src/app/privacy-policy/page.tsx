@@ -4,11 +4,11 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import LegalSection from "@/components/legal/LegalSection";
+import LegalSection, { LegalContentSection } from "@/components/legal/LegalSection";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
-  const privacyPolicyContent = {
+  const privacyPolicyContent: { title: string; sections: LegalContentSection[]; } = {
     title: "Privacy Policy",    sections: [
       {
         heading: "Introduction",        content: [
