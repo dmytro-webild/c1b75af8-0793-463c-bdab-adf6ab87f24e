@@ -69,7 +69,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg",          imageAlt: "AI interface displaying real estate data"},
+          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=1",          imageAlt: "AI interface displaying real estate data"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg",          imageAlt: "Hands interacting with holographic CRM"},
         {
@@ -240,7 +240,7 @@ export default function LandingPage() {
         name: "message",        placeholder: "Tell us about your agency's needs...",        rows: 4
       }}
       buttonText="Schedule My Fit Check"
-      imageSrc="http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=2"
       mediaPosition="right"
       onSubmit={(data) => console.log('Contact form submitted:', data)}
     />
