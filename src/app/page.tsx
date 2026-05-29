@@ -184,7 +184,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "NY Wholesalers",        "NJ Investors",        ""Local Property Buyers"",        "Real Estate Acquisition Firms"]}
+        "NY Wholesalers",        "NJ Investors",        "Local Property Buyers",        "Real Estate Acquisition Firms"]}
       title="Built for NY/NJ Wholesalers and Investors"
       description="We specialize in empowering real estate wholesalers and investors in New York and New Jersey to maximize their deal flow and acquire more properties, faster."
       tag="Our Valued Partners"
