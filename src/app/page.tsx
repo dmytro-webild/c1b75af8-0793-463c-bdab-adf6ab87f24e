@@ -240,7 +240,6 @@ export default function LandingPage() {
         name: "message",        placeholder: "Tell us about your agency's needs...",        rows: 4
       }}
       buttonText="Schedule My Fit Check"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EJv1JFqZ3mE4GRyn2yVveVvDnE/uploaded-1780067280913-z1tbrpp3.png"
       mediaPosition="right"
       onSubmit={(data) => console.log('Contact form submitted:', data)}
     />
