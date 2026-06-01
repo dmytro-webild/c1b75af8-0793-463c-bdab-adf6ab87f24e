@@ -73,17 +73,17 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-african-american-businesswoman-sitting-desk-working-laptop-using-smartphone-while-talking-client-over-video-call-modern-office-business-concept_613910-6729.jpg",          imageAlt: "Businesswoman on a video call in a modern office"},
+          imageSrc: "https://images.unsplash.com/photo-1598460671490-57c2e25d48a5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern office building exterior"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-young-male-executive-smiling-camera-modern-office_613910-6712.jpg",          imageAlt: "Smiling male executive in an office"},
+          imageSrc: "https://images.unsplash.com/photo-1560518883-ffcd1afe8088?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Real estate agent showing a modern house to clients"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-working-computer-night-office_1303-10080.jpg",          imageAlt: "Businesswoman working on a computer at night"},
+          imageSrc: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Interior shot of a stylish, staged living room in a modern home"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-businesswoman-working-modern-office_613910-6733.jpg",          imageAlt: "Cropped shot of a businesswoman working"},
+          imageSrc: "https://images.unsplash.com/photo-1490518705335-b28615ce6754?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Team of real estate agents collaborating in a modern meeting room"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/people-meeting-modern-office_613910-6723.jpg",          imageAlt: "People meeting in a modern office"},
+          imageSrc: "https://images.unsplash.com/photo-1549490349-86253457199c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Overhead view of a city skyline with various commercial buildings"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-businesswoman-sitting-office-working-laptop_613910-6731.jpg",          imageAlt: "Thoughtful businesswoman working on a laptop"},
+          imageSrc: "https://images.unsplash.com/photo-1582236528751-f7614d9b3a3c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "House with 'for sale' sign in front of it, indicating a property listing"}
       ]}
     />
   </div>
