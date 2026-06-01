@@ -41,7 +41,7 @@ export default function LandingPage() {
         {
           name: "Metrics",          id: "/#metrics"},
         {
-          name: "Testimonials",          id: "/#testimonials"},
+          name: "Case Studies",          id: "/#testimonials"},
         {
           name: "FAQ",          id: "/#faq"},
         {
@@ -160,22 +160,11 @@ export default function LandingPage() {
       <TestimonialCardFive
       textboxLayout="default"
       useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",          name: "Alex R.",          date: "2023-11-01",          title: "Doubled Our Booked Calls & Accelerated Deals!",          quote: "DealflowAi completely transformed how we handle seller leads. Their speed-to-lead and automated follow-up brought us deals we would have otherwise missed. Our booked calls doubled within weeks!",          tag: "Wholesaler Agency",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",          avatarAlt: "Alex R. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-real-estate-agent-showing-house_23-2150225262.jpg",          imageAlt: "Successful real estate agent closing a deal"},
-        {
-          id: "2",          name: "Sarah K.",          date: "2023-10-15",          title: "Consistent Deal Flow, Zero Missed Opportunities",          quote: "Before DealflowAi, inconsistent follow-up was costing us. Now, our conversion rates have soared, and our team can focus purely on closing, not chasing. Fantastic service that delivers consistent deal flow!",          tag: "Investment Firm",          avatarSrc: "http://img.b2bpic.net/free-photo/young-gorgeous-stylish-businesswoman-with-cellphone-intently-looking-away-coffee-break-cafe-street_574295-4058.jpg",          avatarAlt: "Sarah K. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/colleagues-discussing-charts-business-meeting_1098-4841.jpg",          imageAlt: "Business professionals reviewing growth charts"},
-        {
-          id: "3",          name: "Michael L.",          date: "2023-09-28",          title: "Turning Cold Leads into Warm, Booked Appointments",          quote: "The missed call recovery and 14-day follow-up are genius. We were losing so many potential deals, and now every cold lead is systematically warmed up and turned into a new, qualified opportunity. Truly efficient!",          tag: "Real Estate Developer",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-man-smiling_23-2148729669.jpg",          avatarAlt: "Michael L. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/working-business-technology-computer-internet-male_1163-5494.jpg",          imageAlt: "Professional working on a modern CRM system"},
-        {
-          id: "4",          name: "Jessica T.",          date: "2023-09-10",          title: "Streamlined Process & Highly Qualified Sellers",          quote: "The best part is the quality of the appointments we receive. Leads are thoroughly vetted, so our time is spent only on highly motivated sellers. This agency truly understands real estate acquisition!",          tag: "Acquisition Specialist",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-happy-successful-businessman-standing-restaurant-with-crossed-arm_23-2147955259.jpg",          avatarAlt: "Jessica T. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-with-documents-laptop_1098-2023.jpg",          imageAlt: "Businesswoman analyzing documents and laptop"},
-        {
-          id: "5",          name: "David M.",          date: "2023-08-22",          title: "100% Equity Retention: A Game-Changing Model!",          quote: "The model where we keep all of our equity is unbeatable. Coupled with their efficient lead conversion, DealflowAi has become an indispensable partner for our business's growth and profitability.",          tag: "Private Investor",          avatarSrc: "http://img.b2bpic.net/free-photo/businessman-wearing-coat_1098-3778.jpg",          avatarAlt: "David M. avatar",          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-looking-pie-charts-analyzing-data_1098-19793.jpg",          imageAlt: "Businesswoman reviewing financial charts for growth"}
-      ]}
-      title="Real-World Success Stories: Our Clients Achieve More"
-      description="Discover how real estate agencies and investors are dramatically increasing their booked appointments and closing more deals with DealflowAi."
-      tag="Success Amplified"
-      tagIcon={MessageSquare}
+      testimonials={[]}
+      title="Building Case Studies With Our Founding Clients"
+      description="We are actively seeking visionary real estate agencies and investors to partner with us as founding clients. Collaborate with us to develop powerful case studies that highlight your accelerated deal flow and optimized lead conversion. Benefit from bespoke support, direct influence on product development, and exclusive recognition as we build our success narratives together."
+      tag="Founding Client Program"
+      tagIcon={User}
     />
   </div>
 
@@ -202,7 +191,7 @@ export default function LandingPage() {
           id: "founding-client-phase",          title: "What is the 'founding-client phase' and how does it benefit my agency?",          content: "As we roll out DealflowAi, we're inviting a select group of founding clients to partner with us. During this phase, you'll receive enhanced support, direct input into feature development, and exclusive pricing, all while securing your competitive advantage in lead conversion."
         },
         {
-          id: "faq0",          title: "Do you have case studies or testimonials demonstrating your results?",          content: "Yes, we have a strong track record of success. Please refer to our Testimonials section to see how real estate agencies and investors have significantly increased their booked appointments and closed more deals with DealflowAi."
+          id: "faq0",          title: "Do you have case studies or testimonials demonstrating your results?",          content: "We are currently building compelling case studies with our founding clients. While our platform has a strong track record, we are focused on showcasing the impact of our cutting-edge solutions through new, in-depth client success stories. Join our Founding Client Program to be part of our next success narrative and gain exclusive benefits."
         },
         {
           id: "faq1",          title: "What types of seller leads do you specialize in converting?",          content: "We expertly convert a wide range of seller leads, including cold leads, missed calls, and no-response leads. Our systems are designed to engage, qualify, and convert them into booked appointments for your agency."

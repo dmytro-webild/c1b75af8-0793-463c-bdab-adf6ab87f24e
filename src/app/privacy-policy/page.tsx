@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
               { name: "About", id: "/#about" },
               { name: "Features", id: "/#features" },
               { name: "Metrics", id: "/#metrics" },
-              { name: "Testimonials", id: "/#testimonials" },
+              { name: "Case Studies", id: "/#testimonials" },
               { name: "FAQ", id: "/#faq" },
               { name: "Contact", id: "/#contact" },
               { name: "Privacy Policy", id: "/privacy-policy" },
