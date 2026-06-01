@@ -47,9 +47,9 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "/#contact"},
         {
-          name: "Privacy Policy",          id: "https://dealflow-privacy.carrd.co"},
+          name: "Privacy Policy",          id: "/privacy-policy"},
         {
-          name: "Terms of Service",          id: "https://dealflow-terms.carrd.co"}
+          name: "Terms of Service",          id: "/terms-of-service"}
       ]}
       button={{
         text: "Book Fit Check",        href: "https://calendly.com/abdul-dealflowai"}}
@@ -73,17 +73,17 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169842.jpg?_wi=1",          imageAlt: "AI interface displaying real estate data"},
+          imageSrc: "http://img.b2bpic.net/free-photo/young-african-american-businesswoman-sitting-desk-working-laptop-using-smartphone-while-talking-client-over-video-call-modern-office-business-concept_613910-6729.jpg",          imageAlt: "Businesswoman on a video call in a modern office"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/astral-wallpapers-composition-with-buildings_23-2149687893.jpg",          imageAlt: "Hands interacting with holographic CRM"},
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-young-male-executive-smiling-camera-modern-office_613910-6712.jpg",          imageAlt: "Smiling male executive in an office"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/light-tunnel-background_53876-88807.jpg",          imageAlt: "Speed-to-lead concept visualization"},
+          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-working-computer-night-office_1303-10080.jpg",          imageAlt: "Businesswoman working on a computer at night"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/star-favourite-label-box-bar-banner-graphic_53876-125576.jpg",          imageAlt: "Real estate investor reviewing analytics"},
+          imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-businesswoman-working-modern-office_613910-6733.jpg",          imageAlt: "Cropped shot of a businesswoman working"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-colleagues-talking_23-2149006917.jpg",          imageAlt: "Office desk with automated follow-up dashboard"},
+          imageSrc: "http://img.b2bpic.net/free-photo/people-meeting-modern-office_613910-6723.jpg",          imageAlt: "People meeting in a modern office"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/copy-space-geometric-paper-element-set_23-2148547809.jpg",          imageAlt: "Bridge connecting missed leads to booked appointments"},
+          imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-businesswoman-sitting-office-working-laptop_613910-6731.jpg",          imageAlt: "Thoughtful businesswoman working on a laptop"},
       ]}
     />
   </div>

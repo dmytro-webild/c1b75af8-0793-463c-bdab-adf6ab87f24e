@@ -140,14 +140,14 @@ export default function TermsOfServicePage() {
               { name: "About", id: "/#about" },
               { name: "Features", id: "/#features" },
               { name: "Metrics", id: "/#metrics" },
-              { name: "Testimonials", id: "/#testimonials" },
+              { name: "Case Studies", id: "/#testimonials" },
               { name: "FAQ", id: "/#faq" },
               { name: "Contact", id: "/#contact" },
               { name: "Privacy Policy", id: "/privacy-policy" },
               { name: "Terms of Service", id: "/terms-of-service" }
             ]}
             button={{
-              text: "Book Fit Check",              href: "/#contact"
+              text: "Book Fit Check",              href: "https://calendly.com/abdul-dealflowai"
             }}
             brandName="DealflowAi"
           />

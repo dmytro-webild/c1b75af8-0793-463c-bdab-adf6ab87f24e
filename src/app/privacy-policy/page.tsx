@@ -125,7 +125,7 @@ export default function PrivacyPolicyPage() {
               { name: "Terms of Service", id: "/terms-of-service" }
             ]}
             button={{
-              text: "Book Fit Check",              href: "/#contact"
+              text: "Book Fit Check",              href: "https://calendly.com/abdul-dealflowai"
             }}
             brandName="DealflowAi"
           />
