@@ -52,7 +52,7 @@ export default function LandingPage() {
           name: "Terms of Service",          id: "/terms-of-service"}
       ]}
       button={{
-        text: "Book Fit Check",        href: "https://calendly.com/abdul-dealflowai"}}
+        text: "Book Fit Check",          href: "https://calendly.com/abdul-dealflowai"}}
       brandName="DealflowAi"
     />
   </div>
@@ -61,7 +61,7 @@ export default function LandingPage() {
       <HeroBillboardCarousel
       background={{
         variant: "downward-rays-animated-grid"}}
-      title="Booked Seller Calls from Your Seller Leads"
+      title="Transform Seller Leads into Guaranteed Appointments"
       description="You pay for seller leads — then lose them to slow follow-up. We fix that. Speed-to-lead, missed-call recovery, and 14-day follow-up, done for you. You keep 100% of every deal."
       tag="DealflowAi Agency"
       tagIcon={Sparkles}
