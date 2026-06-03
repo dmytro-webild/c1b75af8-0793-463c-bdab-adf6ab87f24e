@@ -12,7 +12,7 @@ import MetricCardTwo from "@/components/sections/metrics/MetricCardTwo";
 import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import TestimonialCardFive from "@/components/sections/testimonial/TestimonialCardFive";
-import { Award, Cog, DollarSign, Facebook, Linkedin, MessageSquare, Sparkles, Star, Twitter, User, Zap } from "lucide-react";
+import { Award, Cog, DollarSign, MessageSquare, Sparkles, Star, User, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -71,20 +71,7 @@ export default function LandingPage() {
         {
           text: "Text “PILOT”",          href: "/#contact"},
       ]}
-      mediaItems={[
-        {
-          imageSrc: "https://images.unsplash.com/photo-1570129476815-ba250b81e712?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern house exterior with clean lines and large windows"},
-        {
-          imageSrc: "https://images.unsplash.com/photo-1567406606-d74c77c7e997?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Bright, minimalist living room with modern furniture"},
-        {
-          imageSrc: "https://images.unsplash.com/photo-1588662283944-245318627443?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern kitchen with island and bar stools, lots of light"},
-        {
-          imageSrc: "https://images.unsplash.com/photo-1616654761007-8848a602e643?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Spacious bedroom with modern decor and large window"},
-        {
-          imageSrc: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Luxury house exterior with pool"},
-        {
-          imageSrc: "https://images.unsplash.com/photo-1556910816-6556e84d7d9b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern bathroom with clean design"}
-      ]}
+      mediaItems={[]}
     />
   </div>
 
