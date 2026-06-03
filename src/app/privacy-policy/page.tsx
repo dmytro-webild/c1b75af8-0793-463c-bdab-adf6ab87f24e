@@ -136,12 +136,12 @@ export default function PrivacyPolicyPage() {
             layout="page"
             title={privacyPolicyContent.title}
             sections={privacyPolicyContent.sections}
-            className="py-16 md:py-24 lg:py-32 bg-background text-foreground"
-            titleClassName="text-center text-4xl md:text-5xl lg:text-6xl font-bold mb-10 text-foreground"
-            sectionClassName="mb-12 border-b border-foreground/10 pb-10 last:border-b-0 last:pb-0"
-            headingClassName="text-3xl md:text-4xl font-semibold mb-6 text-primary-cta"
-            contentClassName="text-lg leading-relaxed text-foreground/80 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
-            listClassName="list-disc list-inside space-y-2 text-lg text-foreground/80 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
+            className="py-20 md:py-28 lg:py-36 bg-background text-foreground"
+            titleClassName="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold mb-12 text-foreground"
+            sectionClassName="mb-16 border-b border-foreground/15 pb-12 last:border-b-0 last:pb-0"
+            headingClassName="text-4xl md:text-5xl font-bold mb-8 text-primary-cta"
+            contentClassName="text-xl leading-relaxed text-foreground/85 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
+            listClassName="list-disc list-inside space-y-3 text-xl text-foreground/85 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
           />
         </div>
 
