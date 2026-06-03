@@ -73,17 +73,17 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://images.unsplash.com/photo-1598460671490-57c2e25d48a5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern office building exterior"},
+          imageSrc: "https://images.unsplash.com/photo-1570129476815-ba250b81e712?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern house exterior with clean lines and large windows"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1560518883-ffcd1afe8088?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Real estate agent showing a modern house to clients"},
+          imageSrc: "https://images.unsplash.com/photo-1567406606-d74c77c7e997?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Bright, minimalist living room with modern furniture"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Interior shot of a stylish, staged living room in a modern home"},
+          imageSrc: "https://images.unsplash.com/photo-1588662283944-245318627443?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern kitchen with island and bar stools, lots of light"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1490518705335-b28615ce6754?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Team of real estate agents collaborating in a modern meeting room"},
+          imageSrc: "https://images.unsplash.com/photo-1616654761007-8848a602e643?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Spacious bedroom with modern decor and large window"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1549490349-86253457199c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Overhead view of a city skyline with various commercial buildings"},
+          imageSrc: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Luxury house exterior with pool"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1582236528751-f7614d9b3a3c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "House with 'for sale' sign in front of it, indicating a property listing"}
+          imageSrc: "https://images.unsplash.com/photo-1556910816-6556e84d7d9b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",          imageAlt: "Modern bathroom with clean design"}
       ]}
     />
   </div>
